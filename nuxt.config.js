@@ -1,16 +1,16 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "portfolio_v3",
+    title: "Bertyn Boulikou Portofolio",
     htmlAttrs: {
-      lang: "en",
+      lang: "fr",
     },
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [{ rel: "icon", type: "image/x-icon", href: "logo/BBg.png" }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -28,7 +28,16 @@ export default {
     "@nuxtjs/eslint-module",
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
+    "@nuxtjs/fontawesome",
   ],
+  fontawesome: {
+    component: "Fa",
+    suffix: true,
+    icons: {
+      solid: true,
+      brands: true,
+    },
+  },
   tailwindcss: {
     // add '~tailwind.config` alias
     exposeConfig: true,
