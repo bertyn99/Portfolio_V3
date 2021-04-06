@@ -1,12 +1,13 @@
 <template>
   <section class="w-full relative">
     <div
-      class="flex top-0 right-0 items-center w-64 leading-6 text-left text-gray-900 bg-no-repeat bg-cover box-border md:bg-cover md:w-full bg-indigo-500"
+      class="flex top-0 right-0 items-center leading-6 text-left text-gray-900 bg-no-repeat bg-cover box-border md:bg-cover w-full bg-indigo-500"
       style="
-        background-image: url('logo/banner.png');
+        background-image: url('background/circle.png'), url('logo/banner.png');
         z-index: -2;
-        height: 900px;
-        background-position: center center;
+        height: 840px;
+        background-size: 500px 500px, cover;
+        background-position: right top, center center;
         content: '';
       "
     >
@@ -21,7 +22,7 @@
         />
       </div>
       <div
-        class="absolute text-left box-border"
+        class="absolute text-left box-border hidden md:block"
         style="
           right: 100px;
           top: 50%;
