@@ -1,7 +1,10 @@
 <template>
-  <div class="py-32 leading-6 text-left text-gray-900 box-border md:pb-12">
-    <div class="px-4 mx-auto w-full">
-      <div class="flex flex-wrap -mx-4 text-gray-900 box-border">
+  <div
+    class="pt-24 pb-32 leading-6 text-left text-gray-900 box-border md:pb-12"
+  >
+    <div class="mx-auto bg-indigo-600 h-16" style="width: 0.05em"></div>
+    <div class="md:container px-4 md:mx-auto w-full">
+      <div class="flex flex-wrap text-gray-900 box-border">
         <div
           class="relative px-4 w-full xl:flex-grow-0 xl:flex-shrink-0 xl:max-w-full"
           style="min-height: 1px"
