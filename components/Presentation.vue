@@ -1,15 +1,7 @@
 <template>
   <section class="w-full relative">
     <div
-      class="flex top-0 right-0 items-center leading-6 text-left text-gray-900 bg-no-repeat bg-cover box-border md:bg-cover w-full bg-indigo-500"
-      style="
-        background-image: url('background/circle.png'), url('logo/banner.png');
-        z-index: -2;
-        height: 840px;
-        background-size: 500px 500px, cover;
-        background-position: right top, center center;
-        content: '';
-      "
+      class="flex banner top-0 right-0 items-center leading-6 text-left text-gray-900 bg-no-repeat box-border w-full bg-indigo-500"
     >
       <div
         class="hidden absolute bottom-0 text-left lg:block box-border"
@@ -129,3 +121,14 @@
     </div>
   </section>
 </template>
+<style scoped>
+.banner {
+  background-image: url("~@/static/background/circle.png"),
+    url("@/static/logo/banner.png");
+  z-index: -2;
+  height: 840px;
+  background-size: 500px 500px, cover;
+  background-position: right top, center center;
+  content: "";
+}
+</style>
