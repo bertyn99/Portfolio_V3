@@ -213,8 +213,7 @@
               </h3>
               <div
                 class="
-                  text-2xl
-                  md:text-4xl
+                  md:text-3xl
                   font-normal
                   text-white
                   box-border
