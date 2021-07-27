@@ -3,7 +3,7 @@
     <presentation></presentation>
     <skill></skill>
     <project></project>
-    <portfolio></portfolio>
+
     <about-us></about-us>
     <testimonies></testimonies>
     <call-to-contact></call-to-contact>
