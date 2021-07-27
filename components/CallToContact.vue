@@ -10,9 +10,9 @@
         >
           <div class="text-center box-border">
             <h3
-              class="mt-0 mb-2 font-sans text-5xl font-bold leading-5 text-white box-border"
+              class="mt-0 mb-2 font-sans text-5xl font-bold leading:3 md:leading-5 text-white box-border"
             >
-              Vou voulez discuter d'un projet
+              Vous voulez discuter d'un projet
             </h3>
             <p
               class="mt-3 mb-8 font-sans text-sm font-light leading-7 text-white box-border"
